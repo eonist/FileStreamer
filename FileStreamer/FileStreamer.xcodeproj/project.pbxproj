@@ -110,8 +110,8 @@
 		F19E09A723AEDDCF000B8827 /* FileStreamReader */ = {
 			isa = PBXGroup;
 			children = (
-				F19E09A823AEDDCF000B8827 /* FileStreamReader+Size.swift */,
 				F19E09A923AEDDCF000B8827 /* FileStreamReader.swift */,
+				F19E09A823AEDDCF000B8827 /* FileStreamReader+Size.swift */,
 			);
 			path = FileStreamReader;
 			sourceTree = "<group>";
