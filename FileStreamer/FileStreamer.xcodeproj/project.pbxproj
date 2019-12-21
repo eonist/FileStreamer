@@ -10,10 +10,11 @@
 		F19E097923AEDB13000B8827 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19E097823AEDB13000B8827 /* AppDelegate.swift */; };
 		F19E098223AEDB18000B8827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F19E098123AEDB18000B8827 /* Assets.xcassets */; };
 		F19E098523AEDB18000B8827 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19E098323AEDB18000B8827 /* LaunchScreen.storyboard */; };
-		F19E099023AEDB18000B8827 /* FileStreamerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19E098F23AEDB18000B8827 /* FileStreamerTests.swift */; };
-		F19E09A023AEDBE6000B8827 /* FileStreamWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19E099C23AEDBE6000B8827 /* FileStreamWriter.swift */; };
-		F19E09A123AEDBE6000B8827 /* FileStreamReader+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19E099E23AEDBE6000B8827 /* FileStreamReader+Size.swift */; };
-		F19E09A223AEDBE6000B8827 /* FileStreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19E099F23AEDBE6000B8827 /* FileStreamReader.swift */; };
+		F19E09AA23AEDDCF000B8827 /* FileStreamWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19E09A623AEDDCF000B8827 /* FileStreamWriter.swift */; };
+		F19E09AB23AEDDCF000B8827 /* FileStreamReader+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19E09A823AEDDCF000B8827 /* FileStreamReader+Size.swift */; };
+		F19E09AC23AEDDCF000B8827 /* FileStreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19E09A923AEDDCF000B8827 /* FileStreamReader.swift */; };
+		F19E09B123AEDE3F000B8827 /* FileStreamerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19E09AF23AEDE3F000B8827 /* FileStreamerTests.swift */; };
+		F19E09B223AEDE3F000B8827 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F19E09B023AEDE3F000B8827 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,11 +34,11 @@
 		F19E098423AEDB18000B8827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F19E098623AEDB18000B8827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F19E098B23AEDB18000B8827 /* FileStreamerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileStreamerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F19E098F23AEDB18000B8827 /* FileStreamerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStreamerTests.swift; sourceTree = "<group>"; };
-		F19E099123AEDB18000B8827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F19E099C23AEDBE6000B8827 /* FileStreamWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileStreamWriter.swift; sourceTree = "<group>"; };
-		F19E099E23AEDBE6000B8827 /* FileStreamReader+Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileStreamReader+Size.swift"; sourceTree = "<group>"; };
-		F19E099F23AEDBE6000B8827 /* FileStreamReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileStreamReader.swift; sourceTree = "<group>"; };
+		F19E09A623AEDDCF000B8827 /* FileStreamWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileStreamWriter.swift; sourceTree = "<group>"; };
+		F19E09A823AEDDCF000B8827 /* FileStreamReader+Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileStreamReader+Size.swift"; sourceTree = "<group>"; };
+		F19E09A923AEDDCF000B8827 /* FileStreamReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileStreamReader.swift; sourceTree = "<group>"; };
+		F19E09AF23AEDE3F000B8827 /* FileStreamerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileStreamerTests.swift; sourceTree = "<group>"; };
+		F19E09B023AEDE3F000B8827 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +62,9 @@
 		F19E096C23AEDB13000B8827 = {
 			isa = PBXGroup;
 			children = (
-				F19E099A23AEDBE6000B8827 /* Source */,
+				F19E09AD23AEDE3F000B8827 /* Tests */,
+				F19E09A423AEDDCF000B8827 /* Sources */,
 				F19E097723AEDB13000B8827 /* FileStreamer */,
-				F19E098E23AEDB18000B8827 /* FileStreamerTests */,
 				F19E097623AEDB13000B8827 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,40 +89,49 @@
 			path = FileStreamer;
 			sourceTree = "<group>";
 		};
-		F19E098E23AEDB18000B8827 /* FileStreamerTests */ = {
+		F19E09A423AEDDCF000B8827 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				F19E098F23AEDB18000B8827 /* FileStreamerTests.swift */,
-				F19E099123AEDB18000B8827 /* Info.plist */,
+				F19E09A523AEDDCF000B8827 /* FileStreamer */,
 			);
-			path = FileStreamerTests;
+			name = Sources;
+			path = ../Sources;
 			sourceTree = "<group>";
 		};
-		F19E099A23AEDBE6000B8827 /* Source */ = {
+		F19E09A523AEDDCF000B8827 /* FileStreamer */ = {
 			isa = PBXGroup;
 			children = (
-				F19E099B23AEDBE6000B8827 /* FileStreamer */,
-			);
-			name = Source;
-			path = ../Source;
-			sourceTree = "<group>";
-		};
-		F19E099B23AEDBE6000B8827 /* FileStreamer */ = {
-			isa = PBXGroup;
-			children = (
-				F19E099C23AEDBE6000B8827 /* FileStreamWriter.swift */,
-				F19E099D23AEDBE6000B8827 /* FileStreamReader */,
+				F19E09A623AEDDCF000B8827 /* FileStreamWriter.swift */,
+				F19E09A723AEDDCF000B8827 /* FileStreamReader */,
 			);
 			path = FileStreamer;
 			sourceTree = "<group>";
 		};
-		F19E099D23AEDBE6000B8827 /* FileStreamReader */ = {
+		F19E09A723AEDDCF000B8827 /* FileStreamReader */ = {
 			isa = PBXGroup;
 			children = (
-				F19E099E23AEDBE6000B8827 /* FileStreamReader+Size.swift */,
-				F19E099F23AEDBE6000B8827 /* FileStreamReader.swift */,
+				F19E09A823AEDDCF000B8827 /* FileStreamReader+Size.swift */,
+				F19E09A923AEDDCF000B8827 /* FileStreamReader.swift */,
 			);
 			path = FileStreamReader;
+			sourceTree = "<group>";
+		};
+		F19E09AD23AEDE3F000B8827 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F19E09AE23AEDE3F000B8827 /* FileStreamerTests */,
+			);
+			name = Tests;
+			path = ../Tests;
+			sourceTree = "<group>";
+		};
+		F19E09AE23AEDE3F000B8827 /* FileStreamerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F19E09AF23AEDE3F000B8827 /* FileStreamerTests.swift */,
+				F19E09B023AEDE3F000B8827 /* Info.plist */,
+			);
+			path = FileStreamerTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F19E09B223AEDE3F000B8827 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,10 +256,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F19E09A223AEDBE6000B8827 /* FileStreamReader.swift in Sources */,
-				F19E09A023AEDBE6000B8827 /* FileStreamWriter.swift in Sources */,
+				F19E09AA23AEDDCF000B8827 /* FileStreamWriter.swift in Sources */,
 				F19E097923AEDB13000B8827 /* AppDelegate.swift in Sources */,
-				F19E09A123AEDBE6000B8827 /* FileStreamReader+Size.swift in Sources */,
+				F19E09AC23AEDDCF000B8827 /* FileStreamReader.swift in Sources */,
+				F19E09AB23AEDDCF000B8827 /* FileStreamReader+Size.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F19E099023AEDB18000B8827 /* FileStreamerTests.swift in Sources */,
+				F19E09B123AEDE3F000B8827 /* FileStreamerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +447,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FileStreamerTests/Info.plist;
+				INFOPLIST_FILE = Tests/FileStreamerTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,7 +468,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FileStreamerTests/Info.plist;
+				INFOPLIST_FILE = Tests/FileStreamerTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
