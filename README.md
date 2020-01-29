@@ -5,7 +5,7 @@
 [![Github actions badge](https://badgen.net/github/checks/eonist/FileStreamer?icon=github&label=Build%20Status)](https://github.com/eonist/FileStreamer/actions)
 
 # FileStreamer
-Continuous writing of data to disk
+Continuous writing / reading of data to disk
 
 ### Installation:
 - SPM `"https://github.com/light-stream/FileStreamer.git"` branch: `"master"`
