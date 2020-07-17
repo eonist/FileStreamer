@@ -14,17 +14,17 @@ Continuous writing / reading of data to disk
 ```swift
 let filePath: String = NSString(string: "~/Desktop/del.txt").expandingTildeInPath
 guard let data: Data = ("black dog" as NSString).data(using: String.Encoding.utf8.rawValue) else {Swift.print("unable to create data");return}
-FileStreamWriter.write(url: URL(filePath), data: data, index: 0)
+FSWriter.write(url: URL(filePath), data: data, index: 0)
 ```
 
 ### Reader example:
 ```swift
 let filePath: String = NSString(string: "~/Desktop/del.txt").expandingTildeInPath
-let data: Data = FileStreamReader.read(filePath: filePath, startIndex: 50, endIndex: 100)
+let data: Data = FSReader.read(filePath: filePath, startIndex: 50, endIndex: 100)
 Swift.print("\(String(data: data, encoding: .utf8))") // blalbslalballabalbla...
 ```
 
 ### Size example:
 ```swift
-let fileSize = FileStreamReader.fileSize(filePath: filePath)
+let fileSize = FSReader.fileSize(filePath: filePath)
 ```
