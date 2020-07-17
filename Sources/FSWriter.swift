@@ -2,13 +2,12 @@ import Foundation
 /**
  * Writes data to a file (Continiously)
  * - Fixme: ⚠️️ Use FileSugar instead of this, move to own repo
- * - Fixme: ⚠️️ rename to FSWriter? 👈
- * - Fixme: ⚠️️ move to source. merge +size into FSreader 👈
  */
 public final class FSWriter {
    /**
     * Reads data from filepath
-    * - Fixme: ⚠️️ Use Result type
+    * - Fixme: ⚠️️ Use Result type, maybe not?
+    * - Fixme: ⚠️️ add own ErrorType WriteError: Error etc
     * - Important: ⚠️️ This method writes over the data that is already there (It does not insert)
     * - Note: https://stackoverflow.com/questions/37981375/nsfilehandle-updateatpath-how-can-i-update-file-instead-of-overwriting
     * ## Examples:
