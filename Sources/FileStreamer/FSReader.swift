@@ -9,13 +9,12 @@ public class FSReader {
     * let filePath: String = NSString(string: "~/Desktop/del.txt").expandingTildeInPath
     * let data: Data = FileStreamReader.read(filePath: filePath, startIndex: 50, endIndex: 100)
     * Swift.print("\(String(data: data, encoding: .utf8))") // blalbslalballabalbla...
-    * - Fixme: ⚠️️ Use UInt64 on endIndex
     */
-   public static func read(url: URL, startIndex: UInt64, endIndex: Int) throws -> Data {
+   public static func read(url: URL, startIndex: UInt64, endIndex: UInt64) throws -> Data {
       do {
          let file: FileHandle = try .init(forReadingFrom: url)
          file.seek(toFileOffset: startIndex)
-         let length: Int = endIndex - Int(startIndex)
+         let length: Int = .init(endIndex - startIndex)
          let databuffer = file.readData(ofLength: length)
          file.closeFile()
          return databuffer
@@ -30,14 +29,14 @@ extension FSReader {
    /**
     * Support for filePath
     */
-   public static func read(filePath: String, startIndex: UInt64, endIndex: Int) throws -> Data {
+   public static func read(filePath: String, startIndex: UInt64, endIndex: UInt64) throws -> Data {
       let url: URL = .init(fileURLWithPath: filePath)
       return try read(url: url, startIndex: startIndex, endIndex: endIndex)
    }
    /**
     * Read string
     */
-   static func read(filePath: String, start: UInt64, end: Int) throws -> String {
+   static func read(filePath: String, start: UInt64, end: UInt64) throws -> String {
       let data: Data = try read(filePath: filePath, startIndex: start, endIndex: end)
       guard let string = String(data: data, encoding: .utf8) else { throw ReaderError.unableToGetStringFromData(dataLength: data.count) }
       return string

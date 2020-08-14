@@ -47,7 +47,6 @@ public final class FSWriter {
 extension FSWriter {
    /**
     * Support for filePath
-    * - Fixme: ⚠️️ Use Result type
     */
    public static func write(filePath: String, data: Data, index: UInt64) throws {
       let url: URL = .init(fileURLWithPath: filePath)
