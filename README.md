@@ -1,6 +1,5 @@
 ![Lang](https://img.shields.io/badge/Language-Swift-orange.svg)
 ![mit](https://img.shields.io/badge/License-MIT-brightgreen.svg)
-[![SwiftLint Sindre](https://img.shields.io/badge/SwiftLint-Sindre-hotpink.svg)](https://github.com/sindresorhus/swiftlint-sindre)
 ![Tests](https://github.com/light-stream/FileStreamer/workflows/Tests/badge.svg)
 
 # FileStreamer
