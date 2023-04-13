@@ -3,7 +3,7 @@
 ![Tests](https://github.com/light-stream/FileStreamer/workflows/Tests/badge.svg)
 
 # FileStreamer
-Continuous writing / reading of data to disk
+> Continuous data to disk
 
 ### Installation:
 - SPM `"https://github.com/light-stream/FileStreamer.git"` branch: `"master"`
